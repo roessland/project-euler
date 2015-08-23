@@ -1,3 +1,6 @@
+// Solution requires about 4 GB of memory to run, for storing prime numbers.
+// An isPrime function would only need the square root of that, but it works.
+
 package main
 
 import "fmt"
@@ -36,7 +39,7 @@ func (s UlamSpiral) PrimeRatio() float64 {
 }
 
 func main() {
-    isPrime  = primegen.Map(240000000)
+    isPrime  = primegen.Map(740000000) // Found by trial and error
     spiral := UlamSpiral{1, 1, 1, 0}
 
     // Add a new layer, since the initial prime ratio is 0, since there are no
@@ -44,7 +47,7 @@ func main() {
     spiral = spiral.AddLayer()
 
     for spiral.PrimeRatio() > 0.1 {
-        fmt.Printf("Last number: %v, Primeratio: %v\n", spiral.LastNumber, spiral.PrimeRatio())
+        //fmt.Printf("Last number: %v, Primeratio: %v\n", spiral.LastNumber, spiral.PrimeRatio())
         spiral = spiral.AddLayer()
     }
     fmt.Printf("%v\n", spiral)
