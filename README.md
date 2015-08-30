@@ -14,3 +14,10 @@ These are more about programming skills, and less about math.
 * 54 -- Compare poker hands. A good opportunity for some test-driven development.
 * 65 -- Simple calculations with big rational numbers.
 * 165 -- Find all intersection points between 5000 line segments. Good OOP exercise.
+* 206 -- Easy, despite the number.
+
+
+### TODO
+
+* 107 Minimal network -- Some graph teory
+* 206 Concealed Square -- Looks fun and not so mathy
