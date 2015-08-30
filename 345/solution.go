@@ -1,3 +1,5 @@
+// 60 ms on a nice CPU -- 2015
+// The most interesting part here is the keys used in the hashmap
 package main
 
 import "fmt"
