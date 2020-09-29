@@ -1,3 +1,0 @@
-43 seconds on a cheap DigitalOcean VPS
-
-Can be reduced by a factor of 10 by skipping 9 digit numbers.
