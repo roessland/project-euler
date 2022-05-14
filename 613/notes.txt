@@ -1,0 +1,3 @@
+ans = 1/(12*pi)*arccos((x^2+y^2-4x-3y)/sqrt((x^2+9-6y+y^2)*(16-8x+^2+y^2)))
+
+Now we just need to solve integral to the desired precision...
